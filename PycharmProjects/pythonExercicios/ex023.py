@@ -7,4 +7,3 @@ print ('A unidade do numero {} é {}'.format(numero,numero[3]))
 
 
 
-

@@ -1,6 +1,8 @@
 nome = str(input('Digite um nome :'))
 print(nome.upper())
 print(nome.lower())
+print(len(nome.strip()) - nome.count(' '))
 print(len(nome.strip()))
+print('Seu primeiro nome tem {} letras'.format(nome.find(' ')))
 dividido = nome.split()
 print(dividido[0])
