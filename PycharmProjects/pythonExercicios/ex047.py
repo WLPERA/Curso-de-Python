@@ -1,4 +1,4 @@
 
-for n in range(0,52,2):
-    print('Numero: {}'.format(n))
+for n in range(2,51,2):
+    print(n,end=' ')
 print('Fim')
